@@ -3,7 +3,7 @@ import tkinter as tk
 root = tk.Tk()
 root.title("Entry")
 root.geometry("350x375")
-root.resizable(100,100)
+root.resizable(1,1)
 
 
 # Stringvars
@@ -16,6 +16,7 @@ saludo = tk.StringVar()
 nombre.set("Nombre")
 apellido.set("Apellido")
 email.set("Email")
+saludo.set('Disabled')
 
 # Funcion saludar
 def saludar():
