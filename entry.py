@@ -6,7 +6,7 @@ root.geometry("350x250")
 
 
 # Stringvars
-nombre = tk.IntVar()
+nombre = tk.StringVar()
 apellido = tk.StringVar()
 email = tk.StringVar()
 
