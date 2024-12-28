@@ -24,6 +24,7 @@ def saludar():
     print(f"Tu email es: {email.get()}")
     tk.Label(root, text=f"Hola \"{nombre.get()} {apellido.get()}\"").place(x=30, y=180)
     tk.Label(root, text=f"Tu email es: '{email.get()}'").place(x=30, y=210)
+    saludo.set(f'Hola {nombre.get()} {apellido.get()}')
 
 
 # Entiqueta nombre
